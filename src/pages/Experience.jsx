@@ -8,7 +8,7 @@ function Experience() {
             <Container className='p-5'>
                 <Row>
                         <Col xs={12} sm={12} md={6} lg={6} xxl={6} align='justify'>
-                        <h3>Java developer</h3><b>Sep 2021 - Currently </b>
+                        <h3>Software Developer</h3><b>Sep 2021 - Currently </b>
                         <h5>It and Apps - Revetra</h5><p>Puebla, MX </p>
                         <p>I make web applications with JQuery, Java, Spring, React and Hibernate technology for Front-Backend and SQL for Database</p>
                     </Col>
