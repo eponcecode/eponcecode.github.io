@@ -17,7 +17,7 @@ function Contacto() {
             <Col xs={12} sm={12} md={12} lg={12} xxl={12} align='ml-auto'>
                 <br/>
             <p><b>Facebook</b></p>
-            <a href='https://www.facebook.com/eponcedleon/' target="_blank"> Estefanía Ponce de León</a>
+            <a href='https://www.facebook.com/eponcecode/' target="_blank"> Estefanía Ponce de León</a>
             </Col>
         </Row>
         </Container>
