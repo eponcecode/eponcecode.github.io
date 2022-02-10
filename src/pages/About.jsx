@@ -8,7 +8,7 @@ function About() {
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={6} xxl={6}>
                         <br />
-                        <Image className="w-50 p-2" src="img/foto.jpg?100px250" thumbnail='dark'/>
+                        <Image className="w-50 p-1" src="img/foto.jpg" thumbnail='dark'/>
                         <br/><br/>
                         Heróica Puebla de Zaragoza, Puebla, MX
                         <br />
@@ -40,26 +40,15 @@ function About() {
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><b>Python</b></p>
-                            </Container>
-                            <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p><b>HTML/CSS</b></p>
-                            </Container>
-                            <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p><b>PHP</b></p>
-                            </Container>
-                            <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
                                 <p><b>Javascript</b></p>
                             </Container>
+                            <Container>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p><b>Python</b></p>
+                            </Container>
+                            
                             <Container>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -68,9 +57,9 @@ function About() {
                             </Container>
                             <Container>
                                 <div class="progress">
-                                    <div class="progress-bar" bg-secondary role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><b>C/C++</b></p>
+                                <p><b>PL/SQL</b></p>
                             </Container>
                             <Container>
                                 <div class="progress">
