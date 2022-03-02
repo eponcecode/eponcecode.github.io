@@ -6,6 +6,26 @@ function Proyectos() {
             <br />
             <br />
             <Container align='center'>
+                <h3>Angular</h3>
+                <br />
+                <b><h5>Países App</h5></b>
+                <p>Angular & Bootstrap</p>
+                <Container>
+                    <Image className='w-50' src='img/paises.png' />
+                </Container>
+                <br />
+                <a href='https://eponcecode.github.io/angular-paises-app/' target="_blank"><Image className='p-2' src='img/link.png' />   See more...</a>
+                <br /><br />
+                <b><h5>Pipes App</h5></b>
+                <p>Angular & Prime NG</p>
+                <Container>
+                    <Image className='w-50' src='img/pipes.png' />
+                </Container>
+                <br />
+                <a href='https://eponcecode.github.io/angular-pipes/' target="_blank"><Image className='p-2' src='img/link.png' />   See more...</a>
+            </Container>
+            <br />
+            <Container align='center'>
                 <h3>React</h3>
                 <p><b>Sitios realizados con React & Bootstrap</b></p>
                 <br /><p>Este sitio y ...</p> <br/>
