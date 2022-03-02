@@ -14,7 +14,7 @@ function Proyectos() {
                     <Image className='w-50' src='img/paises.png' />
                 </Container>
                 <br />
-                <a href='https://eponcecode.github.io/angular-paises-app/' target="_blank"><Image className='p-2' src='img/link.png' />   See more...</a>
+                <a href='https://eponcecode.github.io/angular-paises-app/' target="_blank"><Image className='p-2' src='img/link.png' />   Ver más...</a>
                 <br /><br />
                 <b><h5>Pipes App</h5></b>
                 <p>Angular & Prime NG</p>
@@ -22,7 +22,7 @@ function Proyectos() {
                     <Image className='w-50' src='img/pipes.png' />
                 </Container>
                 <br />
-                <a href='https://eponcecode.github.io/angular-pipes/' target="_blank"><Image className='p-2' src='img/link.png' />   See more...</a>
+                <a href='https://eponcecode.github.io/angular-pipes/' target="_blank"><Image className='p-2' src='img/link.png' />   Ver más...</a>
             </Container>
             <br />
             <Container align='center'>
