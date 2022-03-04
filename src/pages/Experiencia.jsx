@@ -8,7 +8,7 @@ function Experiencia() {
             <Container className='p-5'>
                 <Row >
                         <Col xs={12} sm={12} md={6} lg={6} xxl={6} align='justify'>
-                        <h3>Desarrolladora de Software</h3><b>Septiembre 2021 - Actualmente</b>
+                        <h3>Desarrolladora de Software</h3><b>Septiembre 2021 - Marzo 2022</b>
                         <h5>It and Apps - Revetra</h5>
                         <p>Puebla, MX</p>
                         <p>Realizo aplicaciones web con tecnología JQuery, Java, Spring, React e Hibernate para Front-Backend y SQL para Base de Datos</p>
