@@ -62,21 +62,9 @@ function Acerca() {
                             </Container>
                             <Container>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p><b>PL/SQL</b></p>
-                            </Container>
-                            <Container>
-                                <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{ width: "25%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><b>MySQL</b></p>
-                            </Container>
-                            <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "25%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p><b>SQL Server</b></p>
+                                <p><b>SQL</b></p>
                             </Container>
                         </Container>
                     </Col>
