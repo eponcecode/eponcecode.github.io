@@ -8,6 +8,26 @@ function Proyectos() {
             <Container align='center'>
                 <h3>Angular</h3>
                 <br />
+                <b><h5>Heroes App</h5></b>
+                <p>Angular & Material Design</p>
+                <Container>
+                    <Image className='w-50' src='img/angular-heroes-app.png' />
+                </Container>
+                <br />
+                <a href='https://eponcecode-heroes-app.netlify.app' target="_blank"><Image className='p-2' src='img/link.png' />   Ver más...</a>
+                <br /><br />
+                <b><h5>Pipes App</h5></b>
+                <p>Angular & Prime NG</p>
+                <Container>
+                    <Image className='w-50' src='img/pipes.png' />
+                </Container>
+                <br />
+                <a href='https://eponcecode.github.io/angular-pipes/' target="_blank"><Image className='p-2' src='img/link.png' />   Ver más...</a>
+            </Container>
+            <br />
+            <Container align='center'>
+                <h3>Angular</h3>
+                <br />
                 <b><h5>Países App</h5></b>
                 <p>Angular & Bootstrap</p>
                 <Container>
