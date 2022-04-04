@@ -15,7 +15,19 @@ function Projects() {
                 </Container>
                 <br />
                 <a href='https://eponcecode-heroes-app.netlify.app' target="_blank"><Image className='p-2' src='img/link.png' />   More...</a>
-                <br /><br />
+            </Container>
+            <br />
+            <Container align='center'>
+                <b><h5>Forms App</h5></b>
+                <p>Angular & Bootstrap</p>
+                <Container>
+                    <Image className='w-50' src='img/angularforms.png' />
+                </Container>
+                <br />
+                <a href='https://eponcecode-angularforms.netlify.app' target="_blank"><Image className='p-2' src='img/link.png' />   More...</a>
+            </Container>
+            <br/>
+            <Container align='center'>
                 <b><h5>Pipes App</h5></b>
                 <p>Angular & Prime NG</p>
                 <Container>
