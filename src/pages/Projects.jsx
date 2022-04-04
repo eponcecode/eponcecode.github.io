@@ -21,7 +21,7 @@ function Projects() {
                 <b><h5>Forms App</h5></b>
                 <p>Angular & Bootstrap</p>
                 <Container>
-                    <Image className='w-50' src='img/angularforms.png' />
+                    <Image className='w-50' src='img/angularForms.png' />
                 </Container>
                 <br />
                 <a href='https://eponcecode-angularforms.netlify.app' target="_blank"><Image className='p-2' src='img/link.png' />   More...</a>
