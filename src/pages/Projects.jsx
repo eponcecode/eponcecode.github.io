@@ -38,8 +38,6 @@ function Projects() {
             </Container>
             <br />
             <Container align='center'>
-                <h3>Angular</h3>
-                <br />
                 <b><h5>Países App</h5></b>
                 <p>Angular & Bootstrap</p>
                 <Container>
