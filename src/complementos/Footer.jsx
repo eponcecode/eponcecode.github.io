@@ -7,7 +7,7 @@ function Footer() {
         <Card bg="dark" text="light">
             <Card.Footer style={{background:'#444444'}}>
                 <Container align="center">
-                    © 2021 Copyright: eponce
+                    © 2022 Copyright by eponce
                 </Container>
             </Card.Footer>
 </Card>
