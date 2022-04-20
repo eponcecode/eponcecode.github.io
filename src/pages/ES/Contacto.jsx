@@ -1,11 +1,14 @@
 import React from 'react'
 import {Row,Col,Container} from 'react-bootstrap';
-function Contacto() {
+import Header from '../../complementos/Header';
+export default class Contacto extends React.Component{
+    state = { language : "ES", URL: 'contact' } 
+    render(){
     return (
         <>
-        <br/>
-        <br/>
-        <Container align='center'>
+        <Header dataFromParent = {this.state} />
+        <Container className='text-light rounded' style={{ background: '#444444' }}>
+        <Container align='center' className='p-5'>
         <Row>
             <Col xs={12} sm={12} md={12} lg={12} xxl={12} align='ml-auto'>
             <p><b>Correo</b></p><p>eponcecode@gmail.com</p>
@@ -21,10 +24,8 @@ function Contacto() {
             </Col>
         </Row>
         </Container>
-        <br/>
-        <br/>
+        </Container>
         </>
     )
+    }
 }
-
-export default Contacto

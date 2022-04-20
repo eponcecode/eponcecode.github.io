@@ -1,10 +1,13 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap';
-function Experience() {
+import Header from '../../complementos/Header';
+export default class Experience extends React.Component {
+    state = { language : "EN", URL: 'experiencia' } 
+    render(){
     return (
         <>
-            <br />
-            <br />
+        <Header dataFromParent = {this.state} />
+            <Container className='text-light rounded' style={{ background: '#444444' }}>
             <Container className='p-5'>
                 <Row>
                         <Col xs={12} sm={12} md={6} lg={6} xxl={6} align='justify'>
@@ -31,8 +34,8 @@ function Experience() {
                     </Col>
                 </Row>
             </Container>
+            </Container>
         </>
     )
+    }
 }
-
-export default Experience

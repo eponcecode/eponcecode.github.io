@@ -1,24 +1,24 @@
-import { Component , Fragment} from 'react'
+import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import { Container } from 'react-bootstrap'
-import './bootstrap-5.1.3-dist/css/bootstrap.css'
-import { NavLink } from 'react-router-dom';
-class TitleBar extends Component {
+import {Container} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
+
+export default class TitleBar extends React.Component {
+    state=this.props.dataFromParent;
     render() {
         return (
             <>
-            <Fragment>
                 <Navbar bg="transparent" variant="dark" expand="lg">
                     <Container >
-                        <NavLink className='navbar-brand' to="/">eponcecode</NavLink>
+                        <Link className='navbar-brand' to="/">eponcecode</Link>
                         <Nav className="ms-auto">
-                            <NavLink className='nav-item nav-link' to='/en'>English</NavLink>
+                            <Link className='nav-item nav-link'
+                            to={'/'+this.state.URL}>{this.state.language==='EN'?'Español':'English'}</Link>
                         </Nav>
                     </Container>
                 </Navbar>
-            </Fragment>
-            </>);
+            </>
+        )
     }
 }
-export default TitleBar;

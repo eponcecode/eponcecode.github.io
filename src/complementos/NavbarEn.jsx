@@ -1,24 +1,22 @@
+import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import { Container } from 'react-bootstrap'
-import './bootstrap-5.1.3-dist/css/bootstrap.css'
-import { NavLink } from 'react-router-dom';
-function NavbarEn() {
+import { Link } from 'react-router-dom';
+export default function NavbarEN() {
     return (
         <Navbar bg="transparent" variant="dark" expand="lg" >
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <NavLink className='nav-item nav-link' to='/home'>Home</NavLink>
-                        <NavLink className='nav-item nav-link' to='/experience'>Experience</NavLink>
-                        <NavLink className='nav-item nav-link' to='/projects'>Projects</NavLink>
-                        <NavLink className='nav-item nav-link' to='/contact'>Contact</NavLink>
+                        <Link className='nav-item nav-link' to='/about_me'>About Me</Link>
+                        <Link className='nav-item nav-link' to='/experience'>Experience</Link>
+                        <Link className='nav-item nav-link' to='/projects'>Projects</Link>
+                        <Link className='nav-item nav-link' to='/contact'>Contact</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
     )
 }
-
-export default NavbarEn

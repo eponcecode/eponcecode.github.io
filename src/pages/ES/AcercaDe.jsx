@@ -1,34 +1,31 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap';
-function About() {
+import Header from '../../complementos/Header';
+export default class AcercaDe extends React.Component {
+    state = { language : "ES", URL: 'about_me' } 
+    render(){
     return (
         <>
-
-            <Container align='center'>
-                <Row>
+        <Header dataFromParent = {this.state} />
+            <Container align='center' className='text-light rounded' style={{ background: '#444444' }}>
+            <Container align='center' className='p-5'>
+                <Row >
                     <Col xs={12} sm={12} md={12} lg={6} xxl={6}>
                         <br />
                         <Image className="w-50 p-1" src="img/foto.jpg" thumbnail='dark'/>
-                        <br/><br/>
-                        Heróica Puebla de Zaragoza, Puebla, MX
+                        <br/>Heróica Puebla de Zaragoza, Puebla, MX
                         <br />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={6} xxl={6}>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <h2>Estefanía Ponce de León Rosas</h2>
-                        <h4>Bachelor of Computer Science</h4>
+                        <h4>Lic. en Ciencias de la Computación</h4>
                         <br />
-                        <p>Software developer | Code enthusiast | React | Angular | Java | I enjoy developing and learning about their technologies, as well as their effects in our daily lives, creating implementations and improvements for a better use and use of resources.</p>
+                        <p>Desarrolladora de software | Entusiasta del código | React | Angular | Java | Disfruto el desarrollo y aprender sobre sus tecnologias, asi como sus efectos en nuestra vida diaria, creando implementaciones y mejoras para un mejor uso y aprovechamiento de recursos.</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={6} xxl={6}>
                         <Container>
-                            <br />
                             <h3>Skills</h3>
                             <Container>
                                 <div class="progress">
@@ -66,31 +63,25 @@ function About() {
                                 </div>
                                 <p><b>SQL</b></p>
                             </Container>
-
                         </Container>
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={6} xxl={6}>
-                        <br />
-                        <br />
                         <Container>
-                            <h3><Image src='img/hat.png' /> Education:</h3>
-                            <h4>Bachelor of Computer Science</h4>
-                            <p><b>Meritorious Autonomous University of Puebla</b><br/>2016-2020</p>
+                            <h3><Image src='img/hat.png' /> Educación</h3>
+                            <h4>Licenciatura en Ciencias de la Computación</h4>
+                            <p><b>Benemérita Universidad Autónoma de Puebla</b><br/>2016-2020</p>
                         </Container>
-                        <br />
-                        <br />
                         <Container>                            
-                            <h3>Languages:</h3>
+                            <h3>Idiomas</h3>
                             <Image src='img/star_full.png'/><Image src='img/star_full.png'/><Image src='img/star_full.png'/><Image src='img/star.png'/><Image src='img/star.png'/>
-                            <p><b>English (Intermediate)</b></p>
+                            <p><b>Inglés (Intermedio)</b></p>
                             <Image src='img/star_full.png'/><Image src='img/star_full.png'/><Image src='img/star_full.png'/><Image src='img/star_full.png'/><Image src='img/star_full.png'/>
-                            <p><b>Spanish (Native)</b></p>
+                            <p><b>Español (Nativo)</b></p>
                         </Container>
                     </Col>
                 </Row>
             </Container>
+            </Container>
         </>
-    )
+    )}
 }
-
-export default About

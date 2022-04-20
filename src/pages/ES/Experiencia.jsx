@@ -1,10 +1,13 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap';
-function Experiencia() {
+import Header from '../../complementos/Header';
+export default class Experiencia extends React.Component {
+    state = { language : "ES", URL: 'experience' } 
+    render(){
     return (
         <>
-            <br />
-            <br />
+        <Header dataFromParent = {this.state} />
+        <Container className='text-light rounded' style={{ background: '#444444' }}>
             <Container className='p-5'>
                 <Row >
                         <Col xs={12} sm={12} md={6} lg={6} xxl={6} align='justify'>
@@ -31,11 +34,10 @@ function Experiencia() {
                         <p>Heróica Puebla de Zaragoza <br /> Puebla, MX</p>
                         <p>Realicé un proceso de investigación para elaborar un programa que hace uso de técnicas de extracción de características y técnicas de detección de objetos que se usan en la biometría, conocidas como, Gabor, LBP, PCA, Viola Jones y SIFT en lenguaje Python</p>
                     </Col>
-
                 </Row>
+            </Container>
             </Container>
         </>
     )
+    }
 }
-
-export default Experiencia
