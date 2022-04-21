@@ -47,19 +47,19 @@ export default class AboutMe extends React.Component {
                                     <div className="progress">
                                         <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p><b>Python</b></p>
-                                </Container>
-                                <Container>
-                                    <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
                                     <p><b>Angular</b></p>
                                 </Container>
                                 <Container>
                                     <div className="progress">
-                                        <div className="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p><b>React</b></p>
+                                </Container>
+                                <Container>
+                                    <div className="progress">
+                                        <div className="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><b>Python</b></p>
                                 </Container>
                                 <Container>
                                     <div className="progress">
