@@ -1,5 +1,5 @@
 import Footer from "./complementos/Footer";
-import {BrowserRouter,Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import AcercaDe from './pages/ES/AcercaDe';
 import Proyectos from './pages/ES/Proyectos';
@@ -16,7 +16,7 @@ export default function App() {
         <style>{'body { background-color: #212020; text: white;}'}</style>
       </Helmet>
 
-      <BrowserRouter>
+      <HashRouter>
           <Routes>
             <Route path="/" element={<><AboutMe /></>} />
             <Route path="about_me" element={<><AboutMe /></>} />
@@ -28,7 +28,7 @@ export default function App() {
             <Route path="proyectos" element={<><Proyectos/></>} />
             <Route path="contacto" element={<><Contacto/></>} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       <br />
       <br />
       <Footer />
