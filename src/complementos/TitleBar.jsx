@@ -9,7 +9,7 @@ export default class TitleBar extends React.Component {
     render() {
         return (
             <>
-                <Navbar bg="transparent" variant="dark" expand="lg">
+                <Navbar variant="dark" expand="lg" style={{background:'rgba(80, 80, 80,0.4)'}}>
                     <Container >
                         <Link className='navbar-brand' to="/">eponcecode</Link>
                         <Nav className="ms-auto">

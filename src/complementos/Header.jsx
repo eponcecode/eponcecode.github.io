@@ -8,7 +8,7 @@ export default class Header extends React.Component{
     render(){
     return(<>
     <TitleBar dataFromParent = {this.state}/>
-    <Container align='center'>
+    <Container align='center' className='p-2'>
     <Image src="img/header.png" fluid style={{border:'6px solid rgba(68, 68, 68)'}}/>
     </Container>
     {this.state.language==='EN'? <NavbarEN />:<NavbarES />}
