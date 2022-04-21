@@ -41,6 +41,12 @@ export default class AcercaDe extends React.Component {
                             </Container>
                             <Container>
                                 <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p><b>Typescript</b></p>
+                            </Container>
+                            <Container>
+                                <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>Angular</b></p>
@@ -50,12 +56,6 @@ export default class AcercaDe extends React.Component {
                                     <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>React</b></p>
-                            </Container>
-                            <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "40%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p><b>Python</b></p>
                             </Container>
                             <Container>
                                 <div class="progress">
