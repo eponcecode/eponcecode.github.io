@@ -13,9 +13,9 @@ export default function NavbarES() {
                             <Link className='nav-item nav-link' to='/acerca_de'>Acerca de</Link>
                             <Link className='nav-item nav-link' to='/experiencia'>Experiencia</Link>
                             <NavDropdown title="Projectos" id="es-nav-dropdown">
-                            <Link className='dropdown-item' to='/es/angular'>Angular</Link>
-                            <Link className='dropdown-item' to='/es/react'>React</Link>
-                            <Link className='dropdown-item' to='/es/java'>Java</Link>
+                            <Link className='dropdown-item' to='/es-angular'>Angular</Link>
+                            <Link className='dropdown-item' to='/es-react'>React</Link>
+                            <Link className='dropdown-item' to='/es-java'>Java</Link>
                             <NavDropdown.Divider />
                             <Link className='dropdown-item' to='/otros'>Others</Link>
                         </NavDropdown>

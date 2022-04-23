@@ -28,16 +28,16 @@ export default function App() {
             <Route path="about_me" element={<><AboutMe /></>} />
             <Route path="experience" element={<><Experience /></>} />
             <Route path="projects" element={<><Projects /></>} />
-            <Route path="en/#/angular" element={<><AngularEn /></>} />
-            <Route path="en/#/react" element={<><ReactEn /></>} />
-            <Route path="en/#/java" element={<><JavaEn /></>} />
+            <Route path="en-angular" element={<><AngularEn /></>} />
+            <Route path="en-react" element={<><ReactEn /></>} />
+            <Route path="en-java" element={<><JavaEn /></>} />
             <Route path="others" element={<><Projects /></>} />
             <Route path="contact" element={<><Contact/></>} />
             <Route path="acerca_de" element={<><AcercaDe /></>} />
             <Route path="experiencia" element={<><Experiencia/></>} />
-            <Route path="es/angular" element={<><AngularEs /></>} />
-            <Route path="es/react" element={<><ReactEs /></>} />
-            <Route path="es/java" element={<><JavaEs /></>} />
+            <Route path="es-angular" element={<><AngularEs /></>} />
+            <Route path="es-react" element={<><ReactEs /></>} />
+            <Route path="es-java" element={<><JavaEs /></>} />
             <Route path="otros" element={<><Proyectos /></>} />
             <Route path="contacto" element={<><Contacto/></>} />
           </Routes>

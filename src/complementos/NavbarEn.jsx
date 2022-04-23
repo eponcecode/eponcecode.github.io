@@ -19,9 +19,9 @@ export default class NavbarEN extends React.Component {
                         <Link className='nav-item nav-link' to='/about_me'>About Me</Link>
                         <Link className='nav-item nav-link' to='/experience'>Experience</Link>
                         <NavDropdown title="Projects" id="en-nav-dropdown">
-                            <Link className='dropdown-item' to='/en/angular'>Angular</Link>
-                            <Link className='dropdown-item' to='/en/react'>React</Link>
-                            <Link className='dropdown-item' to='/en/java'>Java</Link>
+                            <Link className='dropdown-item' to='/en-angular'>Angular</Link>
+                            <Link className='dropdown-item' to='/en-react'>React</Link>
+                            <Link className='dropdown-item' to='/en-java'>Java</Link>
                             <NavDropdown.Divider />
                             <Link className='dropdown-item' to='/others'>Others</Link>
                         </NavDropdown>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap';
 import Header from '../../complementos/Header';
 export default class JavaEs extends React.Component {
-    state = { language : "ES", URL: 'projects' } 
+    state = { language : "ES", URL: 'en-java' } 
     render(){
     return (
         <>

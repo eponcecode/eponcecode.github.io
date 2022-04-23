@@ -2,7 +2,7 @@ import React from 'react'
 import {Container, Image } from 'react-bootstrap';
 import Header from '../../complementos/Header';
 export default class AngularEn extends React.Component{
-    state = { language : "EN", URL: 'proyectos' } 
+    state = { language : "EN", URL: 'es-angular' } 
     render(){
     return (
         <>
