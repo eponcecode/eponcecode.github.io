@@ -44,8 +44,8 @@ export default class AboutMe extends React.Component {
                                     <p><b>Javascript</b></p>
                                 </Container>
                                 <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>Typescript</b></p>
                             </Container>

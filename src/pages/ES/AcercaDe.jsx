@@ -28,38 +28,38 @@ export default class AcercaDe extends React.Component {
                         <Container>
                             <h3>Skills</h3>
                             <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>Java</b></p>
                             </Container>
                             <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>Javascript</b></p>
                             </Container>
                             <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>Typescript</b></p>
                             </Container>
                             <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>Angular</b></p>
                             </Container>
                             <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>React</b></p>
                             </Container>
                             <Container>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{ width: "25%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress">
+                                    <div className="progress-bar" role="progressbar" style={{ width: "25%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <p><b>SQL</b></p>
                             </Container>

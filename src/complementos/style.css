@@ -1,0 +1,22 @@
+.dropdown-item{
+    color: darkgray;
+    background-color: transparent;
+    background: transparent;
+}
+.dropdown-item:hover{
+    color: white;
+    background-color: transparent;
+    background: transparent;
+}
+#en-nav-dropdown + div{
+    color: white;
+    background-color: transparent;
+    background: #212020;
+    border: 2px solid rgba(68, 68, 68);
+}
+#es-nav-dropdown + div{
+    color: white;
+    background-color: transparent;
+    background: #212020;
+    border: 2px solid rgba(68, 68, 68);
+}

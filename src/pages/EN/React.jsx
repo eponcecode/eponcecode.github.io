@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Image } from 'react-bootstrap';
 import Header from '../../complementos/Header';
-export default class Projects extends React.Component{
+export default class ReactEn extends React.Component{
     state = { language : "EN", URL: 'proyectos' } 
     render(){
     return (
@@ -10,13 +10,14 @@ export default class Projects extends React.Component{
         <Container  className='text-light rounded' style={{ background: '#444444' }}>
         <Container className='p-5'>
             <Container align='center' className='p-2'>
-                <h3>Scholar projects</h3>
-                <br />
-                <h5>Expert system  (Prolog)</h5><br/>
-                <Container dangerouslySetInnerHTML={{ __html: "<iframe width='50%' height='315' src='https://www.youtube-nocookie.com/embed/vN62rVLDZNc?rel=0' allowfullscreen/>" }} />
-                <Container className='p-4' align='justify'>
-                <p>An expert system was made according to a knowledge base on the subject of psychiatry. This program is merely a simulation.</p>
+                <h3>React</h3>
+                <p><b>Sites made with React & Bootstrap</b></p>
+                <p>This site and...</p>
+                <Container className='p-2'>
+                <h5>Simple template</h5><br/>
+                    <Image className='w-50' src='img/plantilla-sencilla.png' />
                 </Container>
+                <a href='https://eponcecode.github.io/plantilla-sencilla/' target="_blank" rel="noreferrer"><Image className='p-2' src='img/link.png' />   More...</a>
             </Container>
             </Container>
             </Container>
