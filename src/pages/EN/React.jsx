@@ -14,10 +14,18 @@ export default class ReactEn extends React.Component{
                 <p><b>Sites made with React & Bootstrap</b></p>
                 <p>This site and...</p>
                 <Container className='p-2'>
-                <h5>Simple template</h5><br/>
-                    <Image className='w-50' src='img/plantilla-sencilla.png' />
+                <h5>La Tía Lita</h5><p><b>Photographer page</b></p>
+                    <Image className='w-50 m-2' src='img/latialita.png' />
+                    <br/>
+                <a href='https://latialita.netlify.app/' target="_blank" rel="noreferrer"><Image className='p-2' src='img/link.png' />   More...</a>
                 </Container>
+                <Container className='p-2'>
+                <h5>Simple template</h5><p><b>DJ Template</b></p>
+                    <Image className='w-50' src='img/plantilla-sencilla.png' />
+                    <br/>
                 <a href='https://eponcecode.github.io/plantilla-sencilla/' target="_blank" rel="noreferrer"><Image className='p-2' src='img/link.png' />   More...</a>
+                </Container>
+                
             </Container>
             </Container>
             </Container>

@@ -19,7 +19,7 @@ export default function App() {
   return (
     <>
       <Helmet>
-        <style>{'body { background-color: #212020; text: white;}'}</style>
+        <style>{'body { background-image: #212020; text: white;}'}</style>
       </Helmet>
 
       <HashRouter>
