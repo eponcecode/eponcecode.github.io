@@ -17,7 +17,7 @@ export default class ReactEs extends React.Component {
                 <h5>La Tía Lita</h5><p><b>Página de fotógrafa</b></p>
                     <Image className='w-50 m-2' src='img/latialita.png' />
                     <br/>
-                <a href='https://latialita.netlify.app/' target="_blank" rel="noreferrer"><Image className='p-2' src='img/link.png' />   More...</a>
+                <a href='https://latialita.netlify.app/' target="_blank" rel="noreferrer"><Image className='p-2' src='img/link.png' />   Ver más...</a>
                 </Container>
                 <Container className='p-2 wt-2'>
                 <h5>Plantilla sencilla</h5><p><b>Template para DJ</b></p>
