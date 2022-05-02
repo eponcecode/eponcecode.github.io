@@ -9,6 +9,9 @@ export default class Experiencia extends React.Component {
         <Header dataFromParent = {this.state} />
         <Container className='text-light rounded' style={{ background: '#444444' }}>
             <Container className='p-5'>
+                <Container align="center" className="mb-5">
+                    <h1>Experiencia</h1>
+                </Container>
                 <Row >
                         <Col xs={12} sm={12} md={6} lg={6} xxl={6} align='justify'>
                         <h3>Desarrolladora de Software</h3><b>Septiembre 2021 - Marzo 2022</b>
