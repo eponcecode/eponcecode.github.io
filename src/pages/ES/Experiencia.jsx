@@ -10,7 +10,7 @@ export default class Experiencia extends React.Component {
         <Container className='text-light rounded' style={{ background: '#444444' }}>
             <Container className='p-5'>
                 <Container align="center" className="mb-5">
-                    <h1>Experiencia</h1>
+                    <h2>Experiencia</h2>
                 </Container>
                 <Row >
                         <Col xs={12} sm={12} md={6} lg={6} xxl={6} align='justify'>

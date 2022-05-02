@@ -10,7 +10,7 @@ export default class Contacto extends React.Component{
         <Container className='text-light rounded' style={{ background: '#444444' }}>
         <Container align='center' className='p-5'>
         <Container align="center" className="mb-5">
-            <h1>Contacto</h1>
+            <h2>Contacto</h2>
         </Container>
         <Row>
             <Col xs={12} sm={12} md={12} lg={12} xxl={12} align='ml-auto'>
